@@ -1,0 +1,19 @@
+name: practica_7
+description: Aplicación de lista de tareas con Hive y Provider.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: any
+  build_runner: any
